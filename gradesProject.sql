@@ -1,10 +1,3 @@
-SELECT *
-FROM [PortfolioProject]..[Grades];
-
-SELECT *
-FROM [PortfolioProject]..[Majors];
-
-
 --Get number of students per major
 SELECT MAJOR, COUNT(MAJOR) AS TOTALENROLLED
 FROM [PortfolioProject]..[Grades] grades
